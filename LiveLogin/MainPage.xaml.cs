@@ -15,7 +15,7 @@ namespace LiveLogin
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private static readonly string[] scopes = new string[] { "wl.signin", "wl.basic", "Office.OneNote_Create" };
+        private static readonly string[] scopes = new string[] { "wl.signin", "wl.basic", "wl.skydrive_update" };
         private LiveAuthClient authClient;
         private LiveConnectClient liveClient;
 
@@ -73,7 +73,7 @@ namespace LiveLogin
                         }
                         else
                         {
-                            this.btnLogin.Visibility = Visibility.Collapsed;
+                          this.btnLogin.Visibility = Visibility.Collapsed;
                         }
 
                         this.liveClient = new LiveConnectClient(loginResult.Session);
