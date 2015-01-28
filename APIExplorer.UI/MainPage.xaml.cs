@@ -19,7 +19,7 @@ namespace APIExplorer
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private static readonly string[] scopes = new string[] { "wl.signin", "wl.basic", "wl.skydrive_update" };
+        private static readonly string[] scopes = new string[] { "wl.signin", "wl.basic", "Office.OneNote_Create" };
         private LiveAuthClient authClient;
         private LiveConnectClient liveClient;
 
