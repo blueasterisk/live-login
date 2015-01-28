@@ -135,7 +135,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Live\Microsoft.Live.WinStore.csproj">
+    <ProjectReference Include="..\Live\Microsoft.Live.WinStore.csproj">
       <Project>{5b72b185-3010-480e-9209-d21fada02e99}</Project>
       <Name>Microsoft.Live.WinStore</Name>
     </ProjectReference>
